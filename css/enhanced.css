@@ -1,0 +1,32 @@
+
+
+
+
+
+/*custom upload elements*/
+.customfile-input { position: absolute; height: 20px; cursor: pointer; border: 0; opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); z-index: 999; font-size:10px; }
+
+.customfile {
+	float:left;
+	width: 80%;
+	margin: 0% 1% 1% 2%;
+	padding: 1%;
+	background: #FFFFFF;
+	cursor: pointer;
+	overflow: hidden;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	position: relative;
+	font-size: 11px;
+	color:#333333;
+	
+	
+}
+.customfile-disabled { opacity: .5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); cursor: default; color:#333333; padding: 2px; text-align:left; }
+.customfile-feedback { display: block; color: #333; padding: 2px; text-align:left;}
+.customfile-feedback-populated { color: #333; padding: 2px; text-align:left; }
+.customfile-button { background: #333;  color: #fff; float: right; padding: 2px 4px 2px 4px;  text-align: center; text-decoration: none;  font-size:11px; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;  box-shadow: 0px 0px 1px #666666; background:#006633;}
+.customfile-hover .customfile-button, .customfile-focus .customfile-button  { color:#FFF; background:#666; box-shadow: 0px 0px 4px #666666; background:#330066; }
+
+
